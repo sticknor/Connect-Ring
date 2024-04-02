@@ -213,6 +213,117 @@ background: linear-gradient(180deg, rgba(30,30,30,1) 0%, rgba(30,30,30,1) 60%, r
         text-align: left;
       }
 
+
+      @media screen and (max-width: 1400px) {
+
+        .icon {
+            display: none;
+        }
+
+        .header_text {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .header_text .title {
+            justify-content: center;
+            font-size: 50px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .header_text .subtitle {
+            font-size: 36px;
+            position: relative;
+            top: 100px;
+            font-weight: 600;   
+            text-align: center;
+            color:#eee !important;
+            width: 50%;
+            background-color: #111;
+            padding: 0px 40px 40px 40px;
+        }
+        
+        .header_text .subtitle span {
+            color:#eee !important;
+            
+        }
+
+
+     
+      .welcome_section {
+        padding-top: 80px;
+      }
+
+      .welcome_row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .welcome_text .title {
+        font-size: 36px;
+        text-align: left;
+      }
+
+      .welcome_text .subtitle {
+        padding-left: 0px;
+        padding-top: 40px;
+        font-size: 24px;
+      }
+
+      .cta_section .title {
+        font-size: 36px;
+        margin-top: 60px;
+        text-align: left;
+      }
+
+      .form_elements {
+
+        align-items: center;
+        width: 100%;   
+    }
+
+    input {
+        width: 100%;
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 15px;
+        border: 0px solid #888;
+        background-color: #333;
+        color: #eee;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+        width: 100%;
+        align-items: center;
+    }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .header_image {
+            width: 100vw;
+            object-fit: none;
+            object-position: 50% 0%;
+        }
+
+        .highlight_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .highlight {
+        width: 80%;
+        margin-bottom: 60px;
+      }
+
+    }
+
+
     </style>
     <script>
       $(document).ready(function () {
